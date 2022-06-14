@@ -1,10 +1,10 @@
 name: test-cloud-run-nextjs
 
-on:
-  push:
-    branches:
-      - master
-      - main
+# on:
+#   push:
+#     branches:
+#       - master
+#       - main
 
 env:
   CLOUD_RUN_PROJECT_ID: ${{ secrets.CLOUD_RUN_PROJECT_NAME }}
